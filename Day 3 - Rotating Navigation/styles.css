@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/*! global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: #333;
+  color: #222;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+/** nav styles */
+
+.container.show-nav + nav ul li {
+  transform: translateX(0);
+}
+nav {
+  position: fixed;
+  bottom: 40px;
+  left: 0;
+}
+
+nav ul {
+  padding-left: 30px;
+}
+nav ul li {
+  color: #fff;
+  list-style-type: none;
+  text-transform: uppercase;
+  margin: 40px 0;
+  transform: translateX(-200px);
+  transition: transform 0.4s ease-in;
+}
+
+nav ul li i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+nav ul li + li {
+  margin-left: 15px;
+}
+nav ul li + li + li {
+  margin-left: 30px;
+}
+
+/** circle container */
+.circle-container {
+  position: absolute;
+  left: -100px;
+  top: -100px;
+}
+
+.circle {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #ff7979;
+  border-radius: 50%;
+  transition: transform 0.5s linear;
+}
+
+.container.show-nav .circle {
+  transform: rotate(-70deg);
+}
+
+button {
+  height: 100px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  font-size: 26px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+button#open {
+  left: 60%;
+}
+
+button#close {
+  top: 60%;
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+/** main container */
+
+.container {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+}
+.container.show-nav {
+  transform: rotate(-20deg);
+}
+
+/** article styles */
+article {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+article h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+article small {
+  font-style: italic;
+  color: #555;
+}
+
+article p {
+  margin-block: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+article h2 {
+  margin-block: 20px;
+  font-weight: 700;
+}
+article img {
+  max-width: 100%;
+}

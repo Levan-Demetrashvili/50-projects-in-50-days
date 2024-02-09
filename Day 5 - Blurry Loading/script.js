@@ -6,8 +6,13 @@ let blur = 30;
 const int = setInterval(() => {
   load++;
   blur -= 0.3;
+
   bg.style.filter = `blur(${blur}px)`;
   loadingText.style.opacity = 1 - load / 100;
   loadingText.textContent = `${load}%`;
-  if (load > 99) clearInterval(int);
+
+  if (load > 99) {
+    bg.style.filter = "blur(0px)";
+    clearInterval(int);
+  }
 }, 30);

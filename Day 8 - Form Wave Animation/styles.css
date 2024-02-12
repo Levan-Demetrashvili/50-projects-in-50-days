@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@400;500;700&display=swap');
+
+/*! global styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Muli', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: steelblue;
+  color: #fff;
+}
+
+/** form styles*/
+
+.container {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  padding: 20px 40px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin-block: 21px 30px;
+}
+
+form .form-section {
+  position: relative;
+  width: 300px;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-block: 20px 40px;
+}
+
+form label {
+  position: absolute;
+  top: 15px;
+}
+form label span {
+  display: inline-block;
+  min-width: 5px;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+form input {
+  color: #fff;
+  background-color: transparent;
+  border-bottom: 2px solid #fff;
+  padding: 15px 0;
+}
+
+form button {
+  width: 100%;
+  font-size: 16px;
+  background-color: lightblue;
+  border-radius: 5px;
+
+  padding: 15px;
+  cursor: pointer;
+}
+
+form p {
+  margin-block: 30px 16px;
+}
+
+form p a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+/*^ animations */
+
+form button:active {
+  transform: scale(0.99);
+}
+
+form input:focus + label span,
+form input:valid + label span {
+  color: lightblue;
+  transform: translateY(-30px);
+}
+form input:focus,
+form input:valid {
+  border-color: lightblue;
+}
+
+/** Media queries **/
+@media (max-width: 438px) {
+  h1 {
+    font-size: 25px;
+  }
+  form .form-section {
+    width: 200px;
+  }
+  form p {
+    font-size: 15px;
+  }
+}

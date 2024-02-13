@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background-color: #a164df;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.music-box {
+  font-size: 19.2px;
+  color: #fff;
+  background-color: #663399;
+
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+
+  margin: 16px;
+  padding: 24px 48px;
+
+  cursor: pointer;
+}
+
+.music-box:hover {
+  opacity: 0.9;
+}

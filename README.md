@@ -13,3 +13,4 @@ I am working on this projects now🔥🔥🔥
 | 07  | [Split Landing Page](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%207%20-%20Split%20Landing%20Page)                          
 | 08  | [Form Wave](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%208%20-%20Form%20Wave%20Animation)                                                        
 | 09  | [Sound Board](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%209%20-%20Sound%20Board)   
+| 10  | [Dad Jokes](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2010%20-%20Dad%20Jokes)   

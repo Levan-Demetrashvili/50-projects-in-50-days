@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 50px 0 30px;
+}
+
+.FAQ {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.FAQ div {
+  position: relative;
+  background-color: transparent;
+  border: 1px solid #9fa4a8;
+  border-radius: 10px;
+  padding: 30px;
+  transition: 0.3s ease;
+  overflow: hidden;
+}
+.FAQ div.active {
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.FAQ div p {
+  display: none;
+  margin-top: 30px;
+}
+.FAQ div.active p {
+  display: block;
+}
+
+.FAQ div i.fa-times {
+  display: none;
+}
+.FAQ div.active i.fa-chevron-down {
+  display: none;
+}
+.FAQ div.active i.fa-times {
+  display: block;
+  color: #fff;
+}
+
+.FAQ div section {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  height: 30px;
+  width: 30px;
+
+  font-size: 16px;
+  background-color: transparent;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+  cursor: pointer;
+}
+
+div.active button {
+  background-color: #9fa4a8;
+}
+
+div.active::before,
+div.active::after {
+  content: '\f075';
+  position: absolute;
+  font-family: 'Font Awesome 6 Free';
+  font-size: 7rem;
+  opacity: 0.2;
+
+  color: #2ecc71;
+  top: 20px;
+  left: 20px;
+}
+
+div.active::before {
+  color: #3498db;
+  top: -10px;
+  left: -30px;
+  transform: rotateY(180deg);
+}

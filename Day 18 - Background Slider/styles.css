@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+  background-size: cover;
+  background-position: center;
+  transition: 0.4s;
+}
+
+body::before {
+  content: '';
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background-color: #000000b3;
+}
+
+/** IMAGES **/
+.slide:nth-child(1) {
+  background-image: url('https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+}
+.slide:nth-child(2) {
+  background-image: url('https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80');
+}
+.slide:nth-child(3) {
+  background-image: url('https://images.unsplash.com/photo-1495467033336-2effd8753d51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+}
+.slide:nth-child(4) {
+  background-image: url('https://images.unsplash.com/photo-1522735338363-cc7313be0ae0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80');
+}
+.slide:nth-child(5) {
+  background-image: url('https://images.unsplash.com/photo-1559087867-ce4c91325525?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+}
+
+/** SLIDER **/
+
+.slider {
+  position: relative;
+  width: 70vw;
+  height: 70vh;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  top: -15vh;
+  left: -15vw;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.4s ease;
+}
+
+.slide.active {
+  position: relative;
+  opacity: 1;
+}
+
+.slider button {
+  font-size: 30px;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid orange;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 20px;
+  outline: 0;
+  cursor: pointer;
+}
+
+.left-arrow {
+  left: calc(15vw - 65px);
+}
+.right-arrow {
+  right: calc(15vw - 65px);
+}

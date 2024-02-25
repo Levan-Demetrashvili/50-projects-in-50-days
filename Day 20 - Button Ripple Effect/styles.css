@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  position: relative;
+  font-size: 14px;
+  color: #fff;
+  background-color: purple;
+  border: 1px solid purple;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  overflow: hidden;
+
+  margin: 10px 0;
+  padding: 20px 30px;
+}
+
+button .circle {
+  position: absolute;
+  background-color: #fff;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  animation: scale 0.5s ease-in-out;
+}
+
+@keyframes scale {
+  to {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0;
+  }
+}

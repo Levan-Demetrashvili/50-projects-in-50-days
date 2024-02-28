@@ -26,3 +26,4 @@ I am working on this projects now🔥🔥🔥
 | 20  | [Button Ripple Effect](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2020%20-%20Button%20Ripple%20Effect)       |
 | 21  | [Drag N Drop](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2021%20-%20Drag%20N%20Drop)                         |
 | 22  | [Drawing App](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2022%20-%20Drawing%20App)                           |
+| 23  | [Kinetic CSS Loader](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2023%20-%20Kinetic%20CSS%20Loader)           |

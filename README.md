@@ -33,4 +33,5 @@ I am working on this projects now🔥🔥🔥
 | 27  | [Toast Notification](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2027%20-%20Toast%20Notification)             |
 | 28  | [Github Profiles](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2028%20-%20Github%20Profiles)                   |
 | 29  | [Double Heart Click](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2029%20-%20Double%20Heart%20Click)           |
-| 29  | [Auto Text Effect](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2030%20-%20Auto%20Text%20Effect)               |
+| 30  | [Auto Text Effect](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2030%20-%20Auto%20Text%20Effect)               |
+| 31  | [Password Generator](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2031%20-%20Password%20Generator)             |

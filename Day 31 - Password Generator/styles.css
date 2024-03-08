@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Muli', sans-serif;
+}
+
+body {
+  height: 100vh;
+  color: #fff;
+  background-color: #3b3b98;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 350px;
+  background-color: #23235b;
+  padding: 20px;
+  box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
+}
+
+.card h1 {
+  font-size: 24px;
+  margin: 10px 0 20px;
+  text-align: center;
+}
+
+.result-container {
+  position: relative;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 12px 10px;
+}
+.result-container span {
+  width: calc(100% - 40px);
+  word-wrap: break-word;
+  letter-spacing: 1px;
+}
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #3b3b98;
+  padding: 8px 12px;
+  border: 0;
+  cursor: pointer;
+}
+
+.result-container .copy-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.settings .setting {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.setting input {
+  margin: 3px 3px 3px 4px;
+}
+
+.setting #length {
+  width: 64px;
+  margin: 1.6px;
+  padding: 1px 2px;
+}
+
+.card .generate-btn {
+  width: 100%;
+}

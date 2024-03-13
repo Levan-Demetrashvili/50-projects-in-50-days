@@ -39,3 +39,4 @@ I am working on this projects now🔥🔥🔥
 | 33  | [Notes App](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2033%20-%20Notes%20App)                                           |
 | 34  | [Animated Countdown](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2034%20-%20Animated%20Countdown)                         |
 | 35  | [Image Carousel](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2035%20-%20Image%20Carousel)                                 |
+| 36  | [Hoverboard](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2036%20-%20Hoverboard)                                           |

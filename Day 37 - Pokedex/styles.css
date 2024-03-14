@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #d4d3dd, #efefbb);
+}
+
+h1 {
+  text-align: center;
+  margin: 0.67em 0;
+  letter-spacing: 3px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  flex-wrap: wrap;
+}
+
+.pokemon {
+  text-align: center;
+  background-color: #eee;
+  border-radius: 10px;
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+
+  margin: 10px;
+  padding: 20px;
+}
+
+.pokemon .info {
+  margin-top: 20px;
+}
+
+.info span {
+  font-size: 0.8em;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.info h3 {
+  margin-block: 15px 7px;
+  letter-spacing: 1px;
+}
+
+.img-container {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.img-container img {
+  max-width: 90%;
+  margin-top: 20px;
+}

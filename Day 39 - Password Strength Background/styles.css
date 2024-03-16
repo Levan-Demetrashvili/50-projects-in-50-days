@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@layer components {
+  .input{
+      @apply border p-2 mt-2 w-full rounded
+  }
+  .btn {
+    @apply rounded w-full bg-black text-white py-2 mt-4 text-base hover:bg-gray-900
+  }
+}
+
+.background {
+  width: calc(100% + 40px);
+  height: calc(100% + 40px);
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  z-index: -1;
+
+  object-fit: cover;
+  filter: blur(20px);
+}

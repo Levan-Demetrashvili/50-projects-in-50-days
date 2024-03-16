@@ -42,3 +42,4 @@ I am working on this projects now🔥🔥🔥
 | 36  | [Hoverboard](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2036%20-%20Hoverboard)                                           |
 | 37  | [Pokedex](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2037%20-%20Pokedex)                                                 |
 | 38  | [Mobile Tab Navigation](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2038%20-%20Mobile%20Tab%20Navigation)                 |
+| 39  | [Password Strength Background](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2039%20-%20Password%20Strength%20Background)   |

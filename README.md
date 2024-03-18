@@ -44,3 +44,4 @@ I am working on this projects now🔥🔥🔥
 | 38  | [Mobile Tab Navigation](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2038%20-%20Mobile%20Tab%20Navigation)                 |
 | 39  | [Password Strength Background](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2039%20-%20Password%20Strength%20Background)   |
 | 40  | [3D Background Boxes](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2040%20-%203D%20Background%20Boxes)                     |
+| 41  | [Verify Account UI](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2041%20-%20Verify%20Account%20UI)                         |

@@ -48,3 +48,4 @@ I am working on this projects now🔥🔥🔥
 | 42  | [Live User Filter](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2042%20-%20Live%20User%20Filter)                           |
 | 43  | [Feedback UI Design](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2043%20-%20Feedback%20UI%20Design)                       |
 | 44  | [Custom Range Slider](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2044%20-%20Custom%20Range%20Slider)                     |
+| 45  | [Netflix Navigation](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2045%20-%20Netflix%20Navigation)                         |

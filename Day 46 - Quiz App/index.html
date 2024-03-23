@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <form>
+      <div class="question-container">
+        <h1 id="question">Which language runs in a web browser?</h1>
+
+        <div class="answers">
+          <label class="answer-1" for="first"> <input type="radio" id="first" name="answer" /> Java </label>
+
+          <label class="answer-2" for="second"> <input type="radio" id="second" name="answer" /> C </label>
+
+          <label class="answer-3" for="third"> <input type="radio" id="third" name="answer" /> Python </label>
+
+          <label class="answer-4" for="fourth"> <input type="radio" id="fourth" name="answer" /> JavaScript </label>
+        </div>
+      </div>
+
+      <button id="submit">Submit</button>
+    </form>
+  </body>
+</html>

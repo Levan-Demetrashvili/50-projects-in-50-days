@@ -51,3 +51,4 @@ I am working on this projects now🔥🔥🔥
 | 45  | [Netflix Navigation](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2045%20-%20Netflix%20Navigation)                         |
 | 46  | [Quiz App](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2046%20-%20Quiz%20App)                                             |
 | 47  | [Testimonial Box Switcher](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2047%20-%20Testimonial%20Box%20Switcher)           |
+| 48  | [Random Image Feed](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2048%20-%20Random%20Image%20Feed)                         |

@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --degrees : 0deg;
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bg-conic {
+  background: conic-gradient(
+    transparent 0deg,
+    transparent var(--degrees),
+    white var(--degrees),
+    white 360deg
+  );
+}
+
+.hand {
+  transform-origin: bottom center;
+  transform: rotate(var(--degrees));
+}
+
+
+@layer components {
+  .btn {
+    @apply flex items-center justify-center w-10 h-10 rounded-full bg-blue-300
+  }
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(147 197 253);
+}
+
+#start.active {
+  background-color: rgb(34 197 94);
+}

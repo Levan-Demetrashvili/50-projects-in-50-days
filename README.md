@@ -1,6 +1,6 @@
 # 50 Projects in 50 Days - HTML/CSS and JavaScript
 
-I am working on this projects now🔥🔥🔥
+Here is my projects with theirs' repositories🏁🏁
 
 |  #  | Project                                                                                                                                            |
 | :-: | -------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -54,3 +54,4 @@ I am working on this projects now🔥🔥🔥
 | 48  | [Random Image Feed](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2048%20-%20Random%20Image%20Feed)                         |
 | 49  | [Todo List](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2049%20-%20Todo%20List)                                           |
 | 50  | [Insect Catch Game](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2050%20-%20Insect%20Catch%20Game)                         |
+| 51  | [Simple Timer](https://github.com/tankistttt/50-projects-in-50-days/tree/master/Day%2051%20-%20Simple%20Timer)                                     |
